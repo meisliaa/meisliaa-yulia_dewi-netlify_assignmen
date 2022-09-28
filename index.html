@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Framework Tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- font -->
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+            form {
+                display: grid;
+                grid-template-columns: 100px 1fr;
+            }
+        </style>
+
+        <title>Assigment 3 tailwind CSS</title>
+    </head>
+
+    <body class="box-border font-['Ubuntu']">
+        <!-- HEADER -->
+        <header class="inline">
+            <nav class="flex bg-fuchsia-300 sticky top-0">
+                <div class="float-left ml-7">
+                    <img class="" src="./assets/nav/logoruangguru.png" width="120" alt="logoruangguru" />
+                </div>
+                <div class="w-4/5 sm:float-right">
+                    <ul class="text-center ml-20 mt-5 lg:mr-28">
+                        <li class="mr-6 inline">
+                            <a class="text-rose-800 font-medium hover:text-pink-600" href="#">About Me</a>
+                        </li>
+                        <li class="mr-6 inline">
+                            <a class="text-rose-800 font-medium hover:text-pink-600" href="#">Experience</a>
+                        </li>
+                        <li class="mr-6 inline">
+                            <a class="text-rose-800 font-medium hover:text-pink-600" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="flex flex-col-reverse lg:flex-row items-center justify-center bg-pink-400 text-white py-10 px-14 m-auto">
+                <section>
+                    <div class="mt-5 lg:w-3/4">
+                        <div class="">
+                            <img class="inline mb-1" width="14px" src="./assets/nav/home.png" />
+                            <p class="text-xs text-gray-300 inline-block ml-1">Tabanan, Bali,1812</p>
+                        </div>
+                        <h1 class="text-4xl">Hi, I'm Lia</h1>
+                        <p class="">I'm 5th Semester Software Engineering Student, Willing to learn and able to adapt in a team or individually.</p>
+                        <div class="w-fit mt-2">
+                            <a target="_blank" href="https://www.instagram.com/meisliaa_/"><img src="./assets/nav/instagram.png" width="24" alt="" /></a>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="profile">
+                        <figure>
+                            <img class="rounded-full" width="140" src="./assets/cv/cvku.jpg" alt="profile" />
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <!-- OPEN MAIN-->
+        <main class="">
+            <div class="p-10">
+                <section>
+                    <h1 class="text-2xl font-bold">About Me</h1>
+                    <h2 class="text-xl mt-3">Introduction My Self</h2>
+                    <p class="mt-2">My name is Ni kadek Yulia dewi, i'm from Balines.</p>
+                    <p class="indent-10 text-justify">I am the second child of 2 siblings, my older brother is an older brother who is my role model when studying, I feel that I am the luckiest child because I never lacking in anything.</p>
+                    <p class="indent-10 text-justify">
+                        I am a child who is very difficult to understand because I have a very easy nature to overthink,but I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and
+                        adaptable to all challenging.
+                    </p>
+                </section>
+                <section>
+                    <h1 class="text-2xl font-bold mt-6">Education</h1>
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-5">
+                        <article class="">
+                            <h2 class="text-lg mt-3 text-center lg:text-left">SMP NEGERI 1 TABANAN</h2>
+                            <div>
+                                <figure>
+                                    <img class="m-auto lg:m-0" width="350" src="./assets/cv/gedungsmp.jpg" alt="image smp" />
+                                    <figcaption class="text-center lg:text-left">(2016-2018)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="mt-3">
+                                <p class="text-justify">
+                                    SMP Negeri 1 Tabanan is a public junior high school that serves the teaching of junior high school education in Tabanan Regency. The lessons provided include all compulsory subjects according to the
+                                    applicable curriculum.
+                                </p>
+                                <p class="text-justify">
+                                    SMP Negeri 1 Tabanan has a teaching staff of teachers who are competent in their subject areas so that they are of high quality and become one of the best in Tabanan Regency. There are also various school
+                                    facilities such as comfortable classrooms, libraries, sports fields, canteens and others.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="">
+                            <h2 class="text-lg mt-5 text-center lg:text-left">SMA NEGERI 2 TABANAN</h2>
+                            <div class="m-auto">
+                                <figure>
+                                    <img class="m-auto lg:m-0" width="350" src="./assets/cv/gedungsma.jpg" alt="Smaku" />
+                                    <figcaption class="text-center lg:text-left">(2018-2020)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="mt-3">
+                                <p class="text-justify">
+                                    SMA Negeri 2 Tabanan which is located at Jalan Mawar Grokgak Gede Tabanan Bali is one of the favorite schools in Tabanan Regency. The public school which was established in 1980 has NSS : 301220308008,
+                                    NPSN : 50101101, and has been accredited with category A in 2018. Since 2011 SMA Negeri 2 Tabanan is one of 132 schools in Indonesia that received direct guidance from the PSMA Directorate to implement
+                                    the SKM-PBKL-PSB Model School program (School of Independent Category, Local Excellence-Based Education, and Learning Resource Center) and in 2019 it was appointed as a Zoning High School with five
+                                    impacted schools which have the closest distance to SMA Negeri 2 Tabanan. Therefore, the curriculum of SMA Negeri 2 Tabanan is very different from the curriculum of other high schools in Tabanan Regency.
+                                    Elements of PBKL with the theme "Tourism Fundamentals," with the aim of equipping students to have tourism competencies, especially guiding in anticipation of the needs of the labor market in Bali.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="">
+                            <h2 class="text-lg mt-5 text-center lg:text-left">UNIVERSITAS UDAYANA</h2>
+                            <div>
+                                <figure>
+                                    <img class="m-auto lg:m-0" width="350" src="./assets/cv/gedungkuliah.jpg" alt="kampusku" />
+                                    <figcaption class="text-center lg:text-left">(2020-present)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="">
+                                <p class="mt-3 text-justify">
+                                    Udayana University was legally established on August 17, 1962 and is the oldest state university in the province of Bali. Previously, since September 29, 1958 in Bali, a faculty called the Udayana Faculty
+                                    of Letters was established as a branch of Airlangga University, Surabaya. This Udayana Faculty of Letters is the embryo of the founding of Udayana University. Based on the Decree of the Minister of PTIP
+                                    No. 104/1962, dated August 9, 1962, Udayana University was legally established on August 17, 1962. However, because the birthday of Udayana University coincided with the day of the Proclamation of
+                                    Independence of the Republic of Indonesia, the celebration of the Birthday of Udayana University was shifted to the date September 29 by taking the date of the inauguration of the Faculty of Letters which
+                                    has been established since 1958.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="text-2xl font-bold mt-6">Contact Me</h2>
+                    <div class="w-1/2 mt-5">
+                        <form action="contact" class="">
+                            <label for="name" class="text-center mt-3">Name: </label>
+                            <input type="text" class="border-solid border-2 border-fuchsia-900 rounded focus:outline-none focus:border-emerald-600 px-2 py-1 mt-2 mb-5" placeholder="Full Name" />
+                            <label for="email" class="text-center mt-3">Email: </label>
+                            <input type="email" class="border-solid border-2 border-fuchsia-900 rounded focus:outline-none focus:border-emerald-600 px-2 py-1 mt-2 mb-5" placeholder="example@gmail.com" />
+                            <label for="massage" class="text-center mt-3">Massage: </label>
+                            <textarea
+                                name="massege"
+                                id="massage"
+                                cols="40"
+                                rows="6"
+                                class="border-solid border-2 border-fuchsia-900 rounded focus:outline-none focus:border-emerald-600 px-2 py-1 mt-2 mb-5"
+                                placeholder="Your Message"
+                                required
+                            ></textarea>
+
+                            <input type="submit" value="" class="" />
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- CLOSE MAIN -->
+
+        <!-- FOOTER -->
+        <footer class="p-5 text-left bg-fuchsia-400 text-slate-50">
+            <p>&#169; Ruangguru Camp 2022, Assigment 3</p>
+        </footer>
+        <!-- CLOSE FOOTER -->
+    </body>
+</html>
